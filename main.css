@@ -3,6 +3,8 @@
     margin: 0;
     background-color: #c5f1b3;
 }
+
+/*nav bar*/
 .menu{
     text-align: center;
     margin: 2%;
@@ -19,3 +21,5 @@
     background-color: azure;
     transform: scale(1.02);
 }
+
+/**/
