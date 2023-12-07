@@ -1,5 +1,20 @@
-*{
-    padding: 0;
+body {
     margin: 0;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/originals/da/de/d1/daded13991f34fca45e64c43bd5ec7b4.jpg'); /* Remplacez par le chemin de votre image de fond */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
 }
 
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
+}
+
+.presentation li{
+    margin-top: 5px;
+}
