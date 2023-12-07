@@ -1,5 +1,21 @@
 *{
     padding: 0;
     margin: 0;
+    background-color: #c5f1b3;
+}
+.menu{
+    text-align: center;
+    margin: 2%;
+
+}
+.navBar{
+    list-style: none;
+    display: inline;
+    padding: 1%;
+    text-transform: uppercase;
 }
 
+.navBar:hover{
+    background-color: azure;
+    transform: scale(1.02);
+}
