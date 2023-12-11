@@ -1,0 +1,26 @@
+.nav-bar {
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 10px;
+    list-style: none;
+}
+
+.nav-bar a {
+    text-decoration: none;
+}
+
+.nav-bar li {
+    background-color: rgba(4, 141, 7, 0.95);
+    color: white;
+    border: black 1px solid;
+    padding: 10px 100px;
+    margin: 5px;
+    border-radius: 5px;
+    transition: transform 0.3s;
+}
+
+.nav-bar li:hover {
+    transform: scale(1.1);
+}

@@ -1,34 +1,20 @@
-*{
-    padding: 0;
+body {
     margin: 0;
-    color: #000000;
+    padding: 0;
+    background-image: url('https://i.pinimg.com/originals/da/de/d1/daded13991f34fca45e64c43bd5ec7b4.jpg'); /* Remplacez par le chemin de votre image de fond */
+    background-size: cover;
+    background-position: center;
+    font-family: Arial, sans-serif;
 }
 
-/*nav bar*/
-.menu{
-    text-align: center;
-    margin: 2%;
-
-}
-.navBar{
-    list-style: none;
-    display: inline;
-    padding: 1%;
-    text-transform: uppercase;
-}
-.navBar a{
-
-    text-decoration: none;
+.container {
+    max-width: 80%;
+    margin: 50px auto;
+    background-color: rgba(255, 255, 255, 0.95);
+    padding: 20px;
+    border-radius: 10px;
 }
 
-.navBar:hover{
-    background-color: azure;
-    transform: scale(1.02);
-}
-
-/**/
-
-.numbers{
-    display: inline-block;
-    padding: 4%;
+.presentation li{
+    margin-top: 5px;
 }
